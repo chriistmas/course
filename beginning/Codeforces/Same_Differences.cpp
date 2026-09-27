@@ -12,7 +12,7 @@ void solve() {
     for (int i = 0; i < n; ++i) {
         int a;
         cin >> a;
-        // a_i - i (usando indexacion 0-based o 1-based da el mismo resultado)
+        // a_i - i 
         freq[a - i]++;
     }
 
